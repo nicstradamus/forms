@@ -1,0 +1,80 @@
+#formContainer {
+	padding: 12px 20px;
+	width: 400px;
+	position: center;
+	background: #9caaaa;
+	border: 2px solid gray;
+	border-radius: 8%;
+}
+
+h3 {
+	color: white;
+	font-family: Helvetica;
+	text-shadow: -1px -.5px 8px rgba(0,0,0, 0.5);
+	text-align: center;
+}
+
+#formFields{
+	padding-left: 80px;
+	width: 55%;
+	/* text-align: center; */
+}
+#formFields p input[type=text], #formFields p input[type=password]{
+	width: 100%;
+	border: .5px solid gray;
+	border-radius: .5%;
+}
+#formFields p input[type=submit]{
+	margin-left: 60px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+
+
+#formFields p.rememberMe {
+  float: left;
+  line-height: 1px;
+}
+ 
+#formFields p.rememberMe label {
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+ 
+#formFields p.rememberMe input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.loginHelp {
+	width: 440px;
+	line-height: 0px;
+	text-align: center;
+}
+.loginHelp p{
+	font-family: Helvetica;
+	font-size: 12px;
+	color: #B0B0AB;
+}
+.loginHelp a{
+	font-family: Helvetica;
+	font-size: 12px;
+	color: #7CCDE5;
+	text-decoration: none; 
+}
+.loginHelp a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
