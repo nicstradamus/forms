@@ -1,7 +1,8 @@
 #formContainer {
 	padding: 12px 20px;
 	width: 400px;
-	position: center;
+	/* position: center; */
+	margin: auto;
 	background: #9caaaa;
 	border: 2px solid gray;
 	border-radius: 8%;
@@ -15,7 +16,7 @@ h3 {
 }
 
 #formFields{
-	padding-left: 80px;
+	padding-left: 88px;
 	width: 55%;
 	/* text-align: center; */
 }
@@ -55,6 +56,7 @@ h3 {
 
 .loginHelp {
 	width: 440px;
+	margin: auto;
 	line-height: 0px;
 	text-align: center;
 }
